@@ -1,0 +1,151 @@
+body{
+    background: #c4c4c4;
+}
+
+header{
+    width: 100%;
+    height: 110px;
+    position: absolute;
+    opacity: 95%;
+    top: 0;
+    left: 0;
+    background: #D9D9D9;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav .imgart img{
+    width: 200px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    padding-right: 200px;
+    padding-top: 25px;
+}
+
+nav ul{
+    margin-top: 0px;
+    padding-left: 70px;
+}
+
+nav ul li{
+    justify-content: center;
+    display: flex;
+    padding-top: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+nav ul li a p{
+    color: black;
+    font-size: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+nav .imglog{
+    padding-left: 370px;
+}
+
+nav .imglog img{
+    width: 60px;
+    padding-top: 25px;
+}
+
+main{
+    padding-top: 120px;
+}
+
+.Upper .Search{
+    width: 200px;
+    padding-left: 110px;
+}
+
+.Upper .Search input{
+    padding: 12px 20px 12px 10px;
+    width: 200px;
+    height: 28px;
+    border: none;
+    border-radius: 20px;
+    border-bottom: 2px solid black;
+}
+
+.Upper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.Upper .Category a {
+    text-decoration: none;
+    color: black;
+}
+
+.Upper .Category a p{
+    justify-content: right;
+    cursor: pointer;
+    padding-right: 40px;
+    margin: 0;
+}
+
+.banner{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    padding-top:40px;
+    justify-content: center;
+}
+
+.Class1{
+    width: 33%;
+    padding-left: 100px;
+}
+
+.banner img{
+    width: 350px;
+    height: 280px;
+    border-radius: 20px;
+}
+
+.Upper1{
+    width: 350px;
+}
+
+.Class1 .Upper1{
+    display: flex;
+    height: 50px;
+}
+
+.Class1 .Upper1 .title{
+    width: 300px;
+}
+
+.Class1 .Upper1 .price{
+    width: 100px;
+    height: 50px;
+}
+
+.Class1 .Upper1 .price .banner1{
+    width: 50px;
+    height: 30px;
+    background-color: #EEEEEE;
+    border-radius: 20px;
+    margin-left: 35px;
+}
+
+.Class1 .price p{
+    text-align: center;
+    padding-top: 5px;
+}
+
+.Class1 .mtext p{
+    width: 350px;
+}
